@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TheMarino</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img
+        src="../Assets/TheMarino-logo.png"
+        alt="TheMarino Logo"
+        class="logo"
+      />
+      <h1>TheMarino - Intelligent Signal Bot for Crypto</h1>
+    </header>
+    <div id="symbol">Loading symbol...</div>
+    <div id="price">Loading price...</div>
+    <section>
+      <h2>User Actions</h2>
+      <input type="text" id="userAddress" placeholder="Enter your address" />
+      <button onclick="registerUser()">Register</button>
+      <input
+        type="number"
+        id="fundAmount"
+        placeholder="Amount to fund (in wei)"
+      />
+      <button onclick="fundAccount()">Fund Account</button>
+      <button onclick="sendSignal()">Send Signal</button>
+    </section>
+    <footer>
+      <a href="#" class="button">Learn More</a>
+    </footer>
+  </body>
+</html>
