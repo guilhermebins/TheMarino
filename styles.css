@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-color: #000;
+  font-size: 1.2rem;
+}
+header {
+  background-color: #ffffff42;
+  display: block;
+  text-align: center;
+  padding: 2.2rem;
+  margin-left: 4rem;
+  margin-bottom: 5rem;
+  border-bottom-left-radius: 80px;
+}
+h1,
+h2,
+h4 {
+  color: #e8bf2b;
+  font-size: 2.5rem;
+  display: block;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+p {
+  color: #e8bf2b;
+  display: block;
+  text-align: justify;
+  margin: auto 7rem;
+  line-height: 2rem;
+}
+a {
+  color: #e8bf2b;
+}
+.menu_icon {
+  display: none;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.header_div {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.logo {
+  width: 550px;
+}
+.themarino_section h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 21rem;
+  margin-right: 21rem;
+}
+.logo_title {
+  width: 52px;
+  height: 28px;
+}
+.themarino {
+  text-decoration: none;
+}
+.themarino:hover {
+  text-decoration: underline;
+}
+.button {
+  background-color: #e8bf2b;
+  color: #000;
+  padding: 8px;
+  border-radius: 16px;
+  text-decoration: none;
+}
+.themarino_section p {
+  margin-bottom: 7rem;
+}
+.signalbot_section {
+  display: block;
+  text-align: center;
+  background-color: #e8bf2b;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.signalbot_section h2 {
+  color: #000;
+  font-size: 1.8rem;
+}
+.signalbot_section p {
+  color: #000;
+}
+.signalbot_section img {
+  border: 6px solid #0000006b;
+  border-radius: 26px;
+  margin: 5rem;
+  width: 80%;
+}
+footer {
+  display: block;
+  text-align: center;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+footer .button {
+  padding: 10px 50px;
+}
