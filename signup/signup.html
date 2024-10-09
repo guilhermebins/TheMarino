@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TheMarino - Sign up</title>
+    <link rel="stylesheet" href="signup.css" />
+    <script src="signup.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <h1>Register</h1>
+      <form id="cadastroForm">
+        <label for="cadastro_name">Full Name:</label>
+        <input type="text" id="cadastro_name" name="cadastro_name" required />
+        <label for="cadastro_idade">Age:</label>
+        <input
+          type="number"
+          id="cadastro_idade"
+          name="cadastro_idade"
+          required
+        />
+        <label for="cadastro_sobrename">Phone Number:</label>
+        <input
+          type="number"
+          id="cadastro_sobrename"
+          name="cadastro_sobrename"
+          required
+        />
+        <label for="cadastro_email">Email:</label>
+        <input
+          type="email"
+          id="cadastro_email"
+          name="cadastro_email"
+          required
+        />
+        <label for="cadastro_password">Password:</label>
+        <input
+          type="password"
+          id="cadastro_password"
+          name="cadastro_password"
+          required
+        />
+        <label for="confirm_password">Confirm the Password:</label>
+        <input
+          type="password"
+          id="confirm_password"
+          name="confirm_password"
+          required
+        />
+        <div id="password_error" class="error_message"></div>
+        <button type="submit"><a href="./confirm_signup.html">Send</a></button>
+      </form>
+    </div>
+  </body>
+</html>
