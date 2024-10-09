@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8bf2b;
+  flex-direction: column;
+}
+.login_form {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  align-items: center;
+  text-align: center;
+}
+.login_header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.login_header img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.login_header h1 {
+  color: #333;
+  font-size: 1.5em;
+}
+.form label {
+  display: flex;
+  align-items: start;
+}
+.login_input {
+  border: 2px solid #e8bf2b;
+  border-radius: 8px;
+  color: #333;
+  background-color: #f1f1f1;
+  cursor: unset;
+  font-size: 1em;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+}
+.login_input::placeholder {
+  color: #999;
+}
+.login_button,
+.cadastro_btn {
+  background-color: #000;
+  border-radius: 6px;
+  color: #e8bf2b;
+  cursor: pointer;
+  font-size: 1em;
+  max-width: 150px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.login_button {
+  background-color: #e8bf2b;
+}
+.login_button a {
+  color: #fff;
+}
+.cadastro_btn:hover {
+  text-decoration: underline;
+}
+form {
+  margin-bottom: 2rem;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
